@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="QueryTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+    <module name="project-0" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="ch.epfl.dias.cs422.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <option name="PACKAGE_NAME" value="ch.epfl.dias.cs422" />
+    <option name="MAIN_CLASS_NAME" value="ch.epfl.dias.cs422.QueryTest" />
+    <option name="METHOD_NAME" value="" />
+    <option name="TEST_OBJECT" value="class" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

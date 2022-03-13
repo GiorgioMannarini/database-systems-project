@@ -1,0 +1,5 @@
+[warn] sbt-jupiter-interface.jar no longer exists at /Users/giorgiomannarini/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/net.aichler/sbt-jupiter-interface/scala_2.12/sbt_1.0/0.8.3/jars/sbt-jupiter-interface.jar
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/Users/giorgiomannarini/IdeaProjects/Project-1-GiorgioMannarini/project/"), "project-1-giorgiomannarini-build")...
+[debug] Done updating ProjectRef(uri("file:/Users/giorgiomannarini/IdeaProjects/Project-1-GiorgioMannarini/project/"), "project-1-giorgiomannarini-build")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.

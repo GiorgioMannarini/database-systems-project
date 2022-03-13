@@ -1,0 +1,70 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Azul Systems, Inc. Java 11.0.10)
+[debug] Load.defaultLoad until apply took 268.441625ms
+[debug]           Load.loadUnit: plugins took 40.540042ms
+[debug]           Load.loadUnit: defsScala took 0.164042ms
+[debug] [Loading] Scanning directory /Users/giorgiomannarini/IdeaProjects/Project-1-GiorgioMannarini/project
+[debug]             Load.loadUnit: mkEval took 4.031875ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/giorgiomannarini/IdeaProjects/Project-1-GiorgioMannarini/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 9.12525 ms
+[info] loading settings for project project-1-giorgiomannarini-build from plugins.sbt ...
+[debug]               Load.resolveProject(project-1-giorgiomannarini-build) took 29.559292ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id project-1-giorgiomannarini-build, base: /Users/giorgiomannarini/IdeaProjects/Project-1-GiorgioMannarini/project, plugins: List(<none>))) took 55.10575ms
+[debug] [Loading] Done in /Users/giorgiomannarini/IdeaProjects/Project-1-GiorgioMannarini/project, returning: (project-1-giorgiomannarini-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 161.836791ms
+[debug]           Load.loadUnit: cleanEvalClasses took 2.711584ms
+[debug]         Load.loadUnit(file:/Users/giorgiomannarini/IdeaProjects/Project-1-GiorgioMannarini/project/, ...) took 207.77475ms
+[debug]       Load.apply: load took 529.296584ms
+[debug]       Load.apply: resolveProjects took 2.328ms
+[debug]       Load.apply: finalTransforms took 26.499209ms
+[debug]       Load.apply: config.delegates took 3.069333ms
+[debug]       Load.apply: Def.make(settings)... took 215.069209ms
+[debug]       Load.apply: structureIndex took 60.494417ms
+[debug]       Load.apply: mkStreams took 1.382042ms
+[info] loading project definition from /Users/giorgiomannarini/IdeaProjects/Project-1-GiorgioMannarini/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] sbt-jupiter-interface.jar no longer exists at /Users/giorgiomannarini/Library/Caches/Coursier/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/net.aichler/sbt-jupiter-interface/scala_2.12/sbt_1.0/0.8.3/jars/sbt-jupiter-interface.jar
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[debug]     Load.loadUnit: plugins took 6948.310083ms
+[debug]     Load.loadUnit: defsScala took 0.001375ms
+[debug] [Loading] Scanning directory /Users/giorgiomannarini/IdeaProjects/Project-1-GiorgioMannarini
+[debug]       Load.loadUnit: mkEval took 0.090167ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/giorgiomannarini/IdeaProjects/Project-1-GiorgioMannarini, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(net.aichler.jupiter.sbt.JupiterPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.thoughtworks.sbtApiMappings.ApiMappings),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.thoughtworks.sbtApiMappings.BootstrapApiMappings),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.thoughtworks.sbtApiMappings.JavadocIoApiMappingRule),Set(Atom(com.thoughtworks.sbtApiMappings.ApiMappings))), Clause(Atom(com.thoughtworks.sbtApiMappings.PlayApiMappingRule),Set(Atom(com.thoughtworks.sbtApiMappings.ApiMappings))), Clause(Atom(com.thoughtworks.sbtApiMappings.ScalaApiMappingRule),Set(Atom(com.thoughtworks.sbtApiMappings.ApiMappings))), Clause(Atom(com.thoughtworks.sbtApiMappings.SonatypeApiMappingRule),Set(Atom(com.thoughtworks.sbtApiMappings.ApiMappings))), Clause(Atom(com.thoughtworks.sbtApiMappings.SonatypeApiMappingRuleForSbtPlugins),Set(Atom(com.thoughtworks.sbtApiMappings.ApiMappings))), Clause(Atom(com.thoughtworks.sbtApiMappings.SparkApiMappingRule),Set(Atom(com.thoughtworks.sbtApiMappings.ApiMappings))), Clause(Atom(sbtide.ConfigPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.gilcloud.sbt.gitlab.GitlabPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(net.aichler.jupiter.sbt.JupiterPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.thoughtworks.sbtApiMappings.ApiMappings))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.thoughtworks.sbtApiMappings.BootstrapApiMappings))), Clause(Atom(com.thoughtworks.sbtApiMappings.ApiMappings),Set(Atom(com.thoughtworks.sbtApiMappings.JavadocIoApiMappingRule))), Clause(Atom(com.thoughtworks.sbtApiMappings.ApiMappings),Set(Atom(com.thoughtworks.sbtApiMappings.PlayApiMappingRule))), Clause(Atom(com.thoughtworks.sbtApiMappings.ApiMappings),Set(Atom(com.thoughtworks.sbtApiMappings.ScalaApiMappingRule))), Clause(Atom(com.thoughtworks.sbtApiMappings.ApiMappings),Set(Atom(com.thoughtworks.sbtApiMappings.SonatypeApiMappingRuleForSbtPlugins))), Clause(Atom(com.thoughtworks.sbtApiMappings.ApiMappings),Set(Atom(com.thoughtworks.sbtApiMappings.SparkApiMappingRule))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.gilcloud.sbt.gitlab.GitlabPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,com.gilcloud.sbt.gitlab.GitlabPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,com.thoughtworks.sbtApiMappings.BootstrapApiMappings,com.thoughtworks.sbtApiMappings.ApiMappings,sbt.plugins.MiniDependencyTreePlugin,net.aichler.jupiter.sbt.JupiterPlugin,com.thoughtworks.sbtApiMappings.JavadocIoApiMappingRule,com.thoughtworks.sbtApiMappings.PlayApiMappingRule,com.thoughtworks.sbtApiMappings.SparkApiMappingRule,com.thoughtworks.sbtApiMappings.ScalaApiMappingRule,com.thoughtworks.sbtApiMappings.SonatypeApiMappingRuleForSbtPlugins)
+[debug] Plugins.deducer#function took 1.516 ms
+[info] loading settings for project project-1-giorgiomannarini from build.sbt ...
+[debug]         Load.resolveProject(project-1-giorgiomannarini) took 2.304917ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id project-1-giorgiomannarini, base: /Users/giorgiomannarini/IdeaProjects/Project-1-GiorgioMannarini, plugins: List(<none>))) took 4.318917ms
+[debug] [Loading] Done in /Users/giorgiomannarini/IdeaProjects/Project-1-GiorgioMannarini, returning: (project-1-giorgiomannarini)
+[debug]     Load.loadUnit: loadedProjectsRaw took 48.704583ms
+[debug]     Load.loadUnit: cleanEvalClasses took 1.970417ms
+[debug]   Load.loadUnit(file:/Users/giorgiomannarini/IdeaProjects/Project-1-GiorgioMannarini/, ...) took 6999.666292ms
+[debug] Load.apply: load took 7008.1755ms
+[debug] Load.apply: resolveProjects took 0.057334ms
+[debug] Load.apply: finalTransforms took 4.755917ms
+[debug] Load.apply: config.delegates took 0.230542ms
+[debug] Load.apply: Def.make(settings)... took 66.344792ms
+[debug] Load.apply: structureIndex took 19.609875ms
+[debug] Load.apply: mkStreams took 0.002291ms
+[info] set current project to project-1 (in build file:/Users/giorgiomannarini/IdeaProjects/Project-1-GiorgioMannarini/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///Users/giorgiomannarini/.sbt/1.0/server/e5591525790debf2d7ce/sock
+[info] started sbt server

@@ -1,0 +1,5 @@
+[warn] scala-library-2.13.4-sources.jar no longer exists at /Users/giorgiomannarini/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.4/scala-library-2.13.4-sources.jar
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/Users/giorgiomannarini/IdeaProjects/Project-0-GiorgioMannarini/"), "project-0-giorgiomannarini")...
+[debug] Done updating ProjectRef(uri("file:/Users/giorgiomannarini/IdeaProjects/Project-0-GiorgioMannarini/"), "project-0-giorgiomannarini")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
